@@ -62,15 +62,24 @@ class HomeViewController: UIViewController {
         
     }
     
+
     @IBAction func Button5(_ sender: Any) {
         UIApplication.shared.open(URL(string: "https://en.wikipedia.org/wiki/Basketball")! as URL, options: [:], completionHandler: nil)
-        
     }
     
-    @IBAction func Button6(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://en.wikipedia.org/wiki/Basketball")! as URL, options: [:], completionHandler: nil)
-        
+    
+    @IBAction func Button6(_ sender: UIButton) {
+         UIApplication.shared.open(URL(string: "https://en.wikipedia.org/wiki/Basketball")! as URL, options: [:], completionHandler: nil)
     }
     
-}
 
+  
+
+    @IBAction func Button7(_ sender: UIButton) {
+         UIApplication.shared.open(URL(string: "https://en.wikipedia.org/wiki/Basketball")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    
+
+
+}
